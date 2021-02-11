@@ -9,23 +9,7 @@
 <footer class="footer" role="contentinfo">
 	<div class="w-wrapper grid-3x1">
 
-		<!-- copyright -->
-		<div class="info">
-			<p class="copyright">
-				&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'Spectreblank'); ?>
-				<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//Spectreblank.com" title="Spectre Blank">Spectre</a>.
-			</p>
-			<!-- /copyright -->
-
-		</div>
-
-		<div class="main-nav">
-			<?php wp_nav_menu(array( 'theme_location' => 'main' )); ?>
-		</div>
-
-		<div class="legal-nav">
-			<?php wp_nav_menu(array( 'theme_location' => 'legal' )); ?>
-		</div>
+	
 	</div>
 
 </footer>
@@ -45,6 +29,8 @@ l=i.getElementsByTagName(r)[0];h.async=1;h.src=e;l.parentNode.insertBefore(h,l)
 ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
 ga('send', 'pageview');
 </script>
+
+
 
 </body>
 </html>
